@@ -39,11 +39,7 @@ class TopContentIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 3),
-      child: ImageIcon(
-        AssetImage(image),
-        size: 20,
-        // color: Colors.black,
-      ),
+      child: Image.asset(image),
     );
   }
 }
